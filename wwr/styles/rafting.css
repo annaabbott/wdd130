@@ -80,22 +80,52 @@ p {
 
 }
 
-section img {
-  display: block;
-  margin: 15px auto;
-}
-
 h2 {
   margin: 1rem 0;
   font-family: var(--heading-font);
   color: var(--primary-color);
+  text-align: center;
+}
+
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5rem;
+  
+}
+
+.adventure h2{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  justify-self: center;
+}
+
+.adventure img{
+  height:150px;
+  width: auto;
+}
+
+figcaption{
+  text-align: center;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+margin: 50px;
 }
 
 footer p {
   padding: 0 3rem;
+  text-align: center;
+  width: 100%;
 }
 
 footer a {
     text-decoration: none;
 }
 
+.sociallinks{
+  display:flex;
+  justify-content: space-around;
+}
