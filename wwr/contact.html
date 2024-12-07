@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This page displays contact information for the fictional Whitewater Rafting Company.">
+    <meta name="author" content="Anna Abbott">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Rafting Site | About Us</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Whitewater Rafting logo">
+        <nav>
+            <a href="index.html">Whitewater Rafting Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section>
+            <h2>Company information</h2>
+            <div class=infoContainer>
+                <div class="address">
+                    <h3>Whitewater Rafting</h3>
+                    <p>(123) 456-7890</p>
+                    <p>whitewaterrafting@ouremail.com</p>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3398.9639806276705!2d-97.20958617373938!3d31.4450874469983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1733453831089!5m2!1sen!2sus"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h3>Whitewater Rafting</h3>
+                    <p>Street Address</p>
+                    <p>City, State, Zip</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <div class="employeeContainer">
+                <div class="employee">
+                    <Img src="images/esteban-bernal-TSWYkMYY_84-unsplash-cropped.jpg" alt="Esteban Mercado">
+                    <h3>Esteban Mercado</h3>
+                    <p>River Manager</p>
+                </div>
+                <div class="employee">
+                    <img src="images/gabriel-istvan-jellhYUvzh8-unsplash-cropped.jpg" alt="Joseph Allen">
+                    <h3>Joseph Allen</h3>
+                    <p>Whitewater Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/jonathan-mendoza-C0ohFB98Hsk-unsplash-cropped.jpg" alt="Jennifer Blackwell">
+                    <h3>Jennifer Blackwell</h3>
+                    <p>Whitewater Guide</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Let's Keep in Touch</h2>
+            <div class="formContainer">
+                <form>
+                    <label for="name">Name:</label>
+                    <input class="text-input" type="text" id="name">
+                    <label for="email">Email:</label>
+                    <input class="text-input" type="email" id="email">
+                    <p>I have a:</p>
+                    <div class="radioContainer">
+                        <input type="radio" id="general" name="general" value="General Inquiry">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="radioContainer">
+                        <input type="radio" id="reservation" name="reservation" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radioContainer">
+                        <input type="radio" id="website" name="website" value="Website">
+                        <label for="website">Website Suggestion</label>
+                    </div>
+                    <textarea name="message" rows="10" id="message"></textarea>
+                    <div class="checkboxContainer">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Contact Us</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 | Whitewater Rafting | Anna Abbott</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo-icon.svg" alt="Facebook" width="50">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x-logo-icon.svg" alt="X" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-logo-icon.svg" alt="Instagram" width="50">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
