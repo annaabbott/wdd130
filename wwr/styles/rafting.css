@@ -70,6 +70,10 @@ div.hero article p {
   color: var(--accent2color);
 }
 
+.heroBtn{
+  width: 200px;
+  margin: 0 40%;
+}
 
 h1 {
   margin: 3rem auto;
