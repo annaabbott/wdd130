@@ -219,6 +219,44 @@ textarea {
   width: 100%;
 }
 
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tripsListContainer{
+  background-color: var(--accent2color);
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table caption{
+  caption-side: bottom;
+  padding: 1rem;
+}
+
+thead{
+  background-color: var(--accent2color);
+  
+}
+
+th, td{
+  border-bottom: 1px solid var(--text-color);
+  padding: .5rem 1rem;
+}
+
+td:last-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td button{
+  margin:  2rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
