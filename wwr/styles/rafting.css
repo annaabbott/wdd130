@@ -95,6 +95,18 @@ h2 {
   text-align: center;
 }
 
+.gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.newsletter{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  align-self: center;
+}
+
 .adventure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
