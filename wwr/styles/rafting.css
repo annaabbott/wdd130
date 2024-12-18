@@ -115,6 +115,7 @@ h2 {
 }
 
 .adventure h2 {
+  margin: 0 auto;
   grid-column-start: 1;
   grid-column-end: 6;
   justify-self: center;
